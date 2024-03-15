@@ -1,4 +1,4 @@
-**Understanding the OSI Model: A Beginner's Guide**
+# The OSI Model
 
 The OSI (Open Systems Interconnection) Model serves as a foundational framework for computer networking, enabling devices to communicate with each other using standardized protocols. This guide breaks down the OSI Model into digestible layers, explores their functions, and provides real-world analogies to facilitate understanding.
 
