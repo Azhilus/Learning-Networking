@@ -54,6 +54,8 @@ Upon reaching the recipient, the process reverses, with each layer performing it
 
 Understanding the OSI Model's layered approach is crucial for navigating the complexities of computer networking. By grasping the functions of each layer, troubleshooting network issues becomes more manageable, and communication processes become clearer.
 
+---
+
 **Glossary:**
 - **Protocol:** A set of rules defining how data is transmitted and received in a network.
 - **Encryption:** The process of encoding data to prevent unauthorized access.
