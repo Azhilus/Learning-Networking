@@ -1,30 +1,30 @@
-### Understanding the TCP/IP Model: Simplified for Beginners
+# The TCP/IP Model
 
 The TCP/IP (Transmission Control Protocol/Internet Protocol) model, developed by the Department of Defense in the 1960s, is a streamlined version of the OSI model. It condenses the seven layers of OSI into four layers, simplifying the networking process while maintaining reliability and accuracy.
 
-#### What Does TCP/IP Do?
+### What Does TCP/IP Do?
 
 TCP/IP's primary function is to transfer data reliably between devices. It ensures that data reaches its destination accurately by breaking it into packets and reassembling them at the receiving end.
 
-#### The Layers of the TCP/IP Model
+### The Layers of the TCP/IP Model
 ![similarities-and-differences-between-osi-and-tcp-ip-model](https://github.com/Azhilus/Learning-Networking/assets/66466976/9f530c3a-f622-43c7-9280-0855586417c3)
 
-1. **Application Layer**
+#### 1. Application Layer
    - Responsible for end-to-end communication and error-free data delivery.
    - Examples include HTTP/HTTPS for web browsing, SSH for secure terminal communication, and NTP for time synchronization.
 
-2. **Transport Layer (TCP/UDP)**
+#### 2. Transport Layer (TCP/UDP)
    - Facilitates communication between applications by ensuring data receipt acknowledgments and retransmitting missing packets.
    - TCP provides reliable, connection-oriented communication, while UDP offers faster, connectionless communication.
 
-3. **Internet/Network Layer**
+#### 3. Internet/Network Layer
    - Similar to OSI's Network layer, it handles logical data transmission across the entire network.
    - Key protocols include:
      - **IP (Internet Protocol):** Routes packets from source to destination based on IP addresses.
      - **ICMP (Internet Control Message Protocol):** Provides network troubleshooting information.
      - **ARP (Address Resolution Protocol):** Maps IP addresses to hardware addresses.
 
-4. **Network Access Layer (Data Link Layer (MAC) and Physical Layer)**
+#### 4. Network Access Layer (Data Link Layer (MAC) and Physical Layer)
    - In TCP/IP, these layers are often combined into one.
    - The data-link layer identifies the packet's network protocol type and provides error prevention and framing.
    - The physical layer handles the actual transmission of data through cables or wireless signals.
