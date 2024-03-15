@@ -41,11 +41,11 @@ The TCP/IP Model simplifies the networking process into four layers, making it e
 ---
 
 **Glossary:**
-- **TCP (Transmission Control Protocol):** Provides reliable, connection-oriented communication.
-- **UDP (User Datagram Protocol):** Offers faster, connectionless communication.
-- **HTTP/HTTPS:** Protocols for web browsing.
-- **SSH (Secure Shell):** Protocol for secure terminal communication.
-- **NTP (Network Time Protocol):** Protocol for time synchronization.
-- **IP (Internet Protocol):** Routes packets based on IP addresses.
-- **ICMP (Internet Control Message Protocol):** Provides network troubleshooting information.
-- **ARP (Address Resolution Protocol):** Maps IP addresses to hardware addresses.
+- **TCP (Transmission Control Protocol):** A protocol providing reliable, connection-oriented communication. It ensures data delivery and order.
+- **UDP (User Datagram Protocol):** A protocol offering faster, connectionless communication. It sacrifices reliability for speed.
+- **HTTP/HTTPS (Hypertext Transfer Protocol/Secure):** Protocols for transmitting web content between servers and browsers.
+- **SSH (Secure Shell):** A protocol for secure remote login and command execution.
+- **NTP (Network Time Protocol):** A protocol for synchronizing the clocks of computer systems.
+- **IP (Internet Protocol):** A protocol responsible for routing packets across networks based on IP addresses.
+- **ICMP (Internet Control Message Protocol):** A protocol for sending control messages and troubleshooting network issues.
+- **ARP (Address Resolution Protocol):** A protocol for mapping IP addresses to hardware addresses on a local network.
