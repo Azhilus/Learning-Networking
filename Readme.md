@@ -1,49 +1,84 @@
-1. **Networking Basics**
-   - Overview of networking concepts
-   - OSI Model and TCP/IP protocol suite
-   - Data encapsulation and protocol layering
+# Learning Networking
 
-2. **Internet Protocol (IP)**
-   - IPv4 and IPv6 addressing
-   - Subnetting and CIDR notation
-   - IP routing and forwarding
+## **1. Networking Basics**
+   - **Overview of Networking Concepts**
+   - **OSI Model and TCP/IP Protocol Suite**
+   - **Data Encapsulation and Protocol Layering**
 
-3. **Domain Name System (DNS)**
-   - DNS hierarchy and resolution process
-   - DNS record types (A, AAAA, CNAME, MX, etc.)
-   - DNSSEC (Domain Name System Security Extensions)
+## **2. Internet Protocol (IP)**
+   - **IPv4 and IPv6 Addressing**
+   - **Subnetting and CIDR Notation**
+   - **IP Routing and Forwarding**
 
-4. **Dynamic Host Configuration Protocol (DHCP)**
-   - DHCP client-server interaction
-   - DHCP message types and options
-   - DHCP relay agents and DHCPv6
+## **3. Domain Name System (DNS)**
+   - **DNS Hierarchy and Resolution Process**
+   - **DNS Record Types (A, AAAA, CNAME, MX, etc.)**
+   - **DNSSEC (Domain Name System Security Extensions)**
 
-5. **HTTP Fundamentals**
-   - HTTP request-response cycle
-   - HTTP methods (GET, POST, PUT, DELETE, etc.)
-   - HTTP headers and their significance
-   - Common MIME types
+## **4. Dynamic Host Configuration Protocol (DHCP)**
+   - **DHCP Client-Server Interaction**
+   - **DHCP Message Types and Options**
+   - **DHCP Relay Agents and DHCPv6**
 
-6. **HTTP Status Codes**
-   - Categories of status codes (1xx, 2xx, 3xx, 4xx, 5xx)
-   - Specific status codes and their meanings
+## **5. HTTP Fundamentals**
+   - **HTTP Request-Response Cycle**
+   - **HTTP Methods (GET, POST, PUT, DELETE, etc.)**
+   - **HTTP Headers and Their Significance**
+   - **Common MIME Types**
 
-7. **Socket Programming**
-   - Introduction to socket programming concepts
-   - TCP socket programming using Python or JavaScript
-   - UDP socket programming for lightweight communication
+## **6. HTTP Status Codes**
+   - **Categories of Status Codes (1xx, 2xx, 3xx, 4xx, 5xx)**
+   - **Specific Status Codes and Their Meanings**
 
-8. **Web Development with HTTP**
-   - Building RESTful APIs with frameworks like Express.js (Node.js) or Flask (Python)
-   - Consuming APIs using client-side frameworks like React.js or Angular
-   - Authentication and Authorization mechanisms (e.g., JWT)
+## **7. Socket Programming**
+   - **Introduction to Socket Programming Concepts**
+   - **TCP Socket Programming Using Python or JavaScript**
+   - **UDP Socket Programming for Lightweight Communication**
 
-9. **Security Considerations**
-   - HTTPS and SSL/TLS encryption
-   - Cross-Origin Resource Sharing (CORS)
-   - Web application security best practices (OWASP Top 10)
+## **8. Core Networking Protocols**
+   - **Ethernet:**
+     - **Frame Structure**
+     - **MAC Addressing**
+     - **Switching and Bridging**
+   - **IP Protocols:**
+     - **ICMP (Internet Control Message Protocol)**
+     - **ARP (Address Resolution Protocol)**
+   - **Transport Layer Protocols:**
+     - **TCP (Transmission Control Protocol)**
+     - **UDP (User Datagram Protocol)**
+   - **Routing Protocols:**
+     - **RIP (Routing Information Protocol)**
+     - **OSPF (Open Shortest Path First)**
+     - **BGP (Border Gateway Protocol)**
+   - **Application Layer Protocols:**
+     - **FTP (File Transfer Protocol)**
+     - **SMTP (Simple Mail Transfer Protocol)**
+     - **SNMP (Simple Network Management Protocol)**
+   - **IoT and Embedded Specific Protocols:**
+     - **MQTT (Message Queuing Telemetry Transport)**
+     - **CoAP (Constrained Application Protocol)**
+     - **6LoWPAN (IPv6 over Low-Power Wireless Personal Area Networks)**
+     - **Zigbee and Z-Wave**
+     - **Bluetooth Low Energy (BLE)**
 
-10. **Project Work and Practical Applications**
-    - Designing and implementing full-stack web or app projects
-    - Integrating networking concepts into projects
-    - Testing, debugging, and deploying networked applications
+## **9. Embedded Systems Networking**
+   - **Network Protocols for Embedded Systems (MQTT, CoAP)**
+   - **Real-Time Communication Protocols (CAN, LIN, FlexRay)**
+   - **Wireless Communication Standards (Wi-Fi, BLE, Zigbee)**
+   - **Embedded Ethernet and TCP/IP Stack Implementation**
+
+## **10. Security Considerations**
+   - **HTTPS and SSL/TLS Encryption**
+   - **Cross-Origin Resource Sharing (CORS)**
+   - **Web Application Security Best Practices (OWASP Top 10)**
+   - **Embedded Systems Security (Secure Boot, Firmware Updates)**
+
+## **11. Real-Time Systems and Networking**
+   - **Real-Time Scheduling Algorithms**
+   - **Timing Analysis and Deadline Handling**
+   - **RTOS (Real-Time Operating Systems) Integration with Network Protocols (FreeRTOS, Zephyr)**
+
+## **12. Debugging Techniques**
+   - **Network Analyzers and Protocol Debugging (Wireshark)**
+   - **JTAG and SWD for Embedded Network Debugging**
+   - **Remote Debugging and Monitoring Tools**
